@@ -1,0 +1,320 @@
+{
+  "title": "Raccolta e verifica dei dati di bilancio",
+  "description": "Prototipo per organizzare le voci del bilancio di previsione 2027/2029, registrare i valori delle annualità precedenti e preparare tabelle da riportare in un documento. I nomi dei file sono trattati come riferimenti descrittivi: non sono disponibili né importazioni automatiche né collegamenti ai documenti.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "cruscotto",
+      "title": "Cruscotto",
+      "description": "Panoramica dell’avanzamento della raccolta e della verifica dei dati.",
+      "metrics": [
+        {
+          "label": "Voci registrate",
+          "value": "24"
+        },
+        {
+          "label": "Da verificare",
+          "value": "6"
+        },
+        {
+          "label": "Annualità monitorate",
+          "value": "6"
+        },
+        {
+          "label": "Tabelle pronte",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Ambito",
+        "Voci",
+        "Stato",
+        "Prossima attività"
+      ],
+      "rows": [
+        [
+          "Entrate",
+          "8",
+          "In verifica",
+          "Controllare i valori 2027/2029"
+        ],
+        [
+          "Spese",
+          "10",
+          "In compilazione",
+          "Completare il confronto storico"
+        ],
+        [
+          "Riepiloghi",
+          "6",
+          "Pronto",
+          "Rivedere la formattazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "voci-bilancio",
+      "title": "Voci di bilancio",
+      "description": "Tabella filtrabile per consultare e registrare importi per voce, annualità e ambito. La ricerca e i filtri sono strumenti di consultazione, non campi di inserimento.",
+      "metrics": [
+        {
+          "label": "Voci",
+          "value": "24"
+        },
+        {
+          "label": "Valori da verificare",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Codice voce",
+        "Descrizione",
+        "Ambito",
+        "Annualità",
+        "Importo in euro",
+        "Fonte",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "LUM-101",
+          "Entrate correnti",
+          "Entrate",
+          "2027",
+          "128000",
+          "Schemi di bilancio, riferimento dichiarato",
+          "Da verificare"
+        ],
+        [
+          "LUM-101",
+          "Entrate correnti",
+          "Entrate",
+          "2028",
+          "131000",
+          "Schemi di bilancio, riferimento dichiarato",
+          "Da verificare"
+        ],
+        [
+          "LUM-101",
+          "Entrate correnti",
+          "Entrate",
+          "2029",
+          "134000",
+          "Schemi di bilancio, riferimento dichiarato",
+          "Da verificare"
+        ],
+        [
+          "VEL-204",
+          "Trasferimenti",
+          "Entrate",
+          "2026",
+          "42000",
+          "Prospetti storici, riferimento dichiarato",
+          "Confrontato"
+        ],
+        [
+          "VEL-204",
+          "Trasferimenti",
+          "Entrate",
+          "2027",
+          "44000",
+          "Schemi di bilancio, riferimento dichiarato",
+          "Da verificare"
+        ],
+        [
+          "NUB-310",
+          "Servizi generali",
+          "Spese",
+          "2026",
+          "76000",
+          "Prospetti storici, riferimento dichiarato",
+          "Confrontato"
+        ],
+        [
+          "NUB-310",
+          "Servizi generali",
+          "Spese",
+          "2027",
+          "79000",
+          "Schemi di bilancio, riferimento dichiarato",
+          "In compilazione"
+        ],
+        [
+          "LUM-415",
+          "Manutenzioni",
+          "Spese",
+          "2028",
+          "18500",
+          "Schemi di bilancio, riferimento dichiarato",
+          "In compilazione"
+        ],
+        [
+          "VEL-522",
+          "Riepilogo corrente",
+          "Riepiloghi",
+          "2029",
+          "—",
+          "Elaborazione interna inventata",
+          "Pronto"
+        ]
+      ],
+      "form": [
+        "Codice voce",
+        "Descrizione",
+        "Ambito",
+        "Annualità",
+        "Importo in euro",
+        "Fonte",
+        "Stato"
+      ]
+    },
+    {
+      "id": "confronto-storico",
+      "title": "Confronto annualità",
+      "description": "Confronto dei valori del triennio 2027/2029 con annualità precedenti, registrate come dati di esempio. Filtra per codice, descrizione o stato di confronto.",
+      "metrics": [
+        {
+          "label": "Confronti registrati",
+          "value": "8"
+        },
+        {
+          "label": "Scostamenti da rivedere",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Codice voce",
+        "Descrizione",
+        "Ambito",
+        "Annualità",
+        "Importo in euro",
+        "Fonte",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "VEL-204",
+          "Trasferimenti",
+          "Entrate",
+          "2026",
+          "42000",
+          "Prospetti storici, riferimento dichiarato",
+          "Confrontato"
+        ],
+        [
+          "VEL-204",
+          "Trasferimenti",
+          "Entrate",
+          "2027",
+          "44000",
+          "Schemi di bilancio, riferimento dichiarato",
+          "Da verificare"
+        ],
+        [
+          "NUB-310",
+          "Servizi generali",
+          "Spese",
+          "2026",
+          "76000",
+          "Prospetti storici, riferimento dichiarato",
+          "Confrontato"
+        ],
+        [
+          "NUB-310",
+          "Servizi generali",
+          "Spese",
+          "2027",
+          "79000",
+          "Schemi di bilancio, riferimento dichiarato",
+          "Da verificare"
+        ],
+        [
+          "LUM-415",
+          "Manutenzioni",
+          "Spese",
+          "2026",
+          "17000",
+          "Prospetti storici, riferimento dichiarato",
+          "Confrontato"
+        ],
+        [
+          "LUM-415",
+          "Manutenzioni",
+          "Spese",
+          "2027",
+          "18000",
+          "Schemi di bilancio, riferimento dichiarato",
+          "In verifica"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "tabelle-documento",
+      "title": "Tabelle per il documento",
+      "description": "Prepara e controlla i riepiloghi destinati alla trascrizione nel documento. La compilazione non genera né modifica un file Word.",
+      "metrics": [
+        {
+          "label": "Tabelle disponibili",
+          "value": "3"
+        },
+        {
+          "label": "Tabelle da rivedere",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Codice voce",
+        "Descrizione",
+        "Ambito",
+        "Annualità",
+        "Importo in euro",
+        "Fonte",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "TAB-01",
+          "Riepilogo entrate",
+          "Entrate",
+          "2027/2029",
+          "306000",
+          "Dati di esempio aggregati",
+          "Pronto"
+        ],
+        [
+          "TAB-02",
+          "Riepilogo spese",
+          "Spese",
+          "2027/2029",
+          "214000",
+          "Dati di esempio aggregati",
+          "Da rivedere"
+        ],
+        [
+          "TAB-03",
+          "Quadro storico",
+          "Riepiloghi",
+          "2026/2028",
+          "—",
+          "Dati di esempio aggregati",
+          "Pronto"
+        ]
+      ],
+      "form": [
+        "Codice voce",
+        "Descrizione",
+        "Ambito",
+        "Annualità",
+        "Importo in euro",
+        "Fonte",
+        "Stato"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "ardesia",
+    "fonts": "istituzionale"
+  }
+}
