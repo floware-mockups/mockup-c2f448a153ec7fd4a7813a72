@@ -74,7 +74,8 @@
         "Annualità",
         "Importo in euro",
         "Fonte",
-        "Stato"
+        "Stato",
+        "File di riferimento"
       ],
       "rows": [
         [
@@ -84,7 +85,8 @@
           "2027",
           "128000",
           "Schemi di bilancio, riferimento dichiarato",
-          "Da verificare"
+          "Da verificare",
+          "bilancio_previsione_2027.xlsx"
         ],
         [
           "LUM-101",
@@ -93,7 +95,8 @@
           "2028",
           "131000",
           "Schemi di bilancio, riferimento dichiarato",
-          "Da verificare"
+          "Da verificare",
+          "riepilogo_entrate.pdf"
         ],
         [
           "LUM-101",
@@ -102,7 +105,8 @@
           "2029",
           "134000",
           "Schemi di bilancio, riferimento dichiarato",
-          "Da verificare"
+          "Da verificare",
+          "prospetto_storico_2026.xlsx"
         ],
         [
           "VEL-204",
@@ -111,7 +115,8 @@
           "2026",
           "42000",
           "Prospetti storici, riferimento dichiarato",
-          "Confrontato"
+          "Confrontato",
+          "quadro_spese_2027.pdf"
         ],
         [
           "VEL-204",
@@ -120,7 +125,8 @@
           "2027",
           "44000",
           "Schemi di bilancio, riferimento dichiarato",
-          "Da verificare"
+          "Da verificare",
+          "bilancio_previsione_2027.xlsx"
         ],
         [
           "NUB-310",
@@ -129,7 +135,8 @@
           "2026",
           "76000",
           "Prospetti storici, riferimento dichiarato",
-          "Confrontato"
+          "Confrontato",
+          "riepilogo_entrate.pdf"
         ],
         [
           "NUB-310",
@@ -138,7 +145,8 @@
           "2027",
           "79000",
           "Schemi di bilancio, riferimento dichiarato",
-          "In compilazione"
+          "In compilazione",
+          "prospetto_storico_2026.xlsx"
         ],
         [
           "LUM-415",
@@ -147,7 +155,8 @@
           "2028",
           "18500",
           "Schemi di bilancio, riferimento dichiarato",
-          "In compilazione"
+          "In compilazione",
+          "quadro_spese_2027.pdf"
         ],
         [
           "VEL-522",
@@ -156,7 +165,8 @@
           "2029",
           "—",
           "Elaborazione interna inventata",
-          "Pronto"
+          "Pronto",
+          "bilancio_previsione_2027.xlsx"
         ]
       ],
       "form": [
